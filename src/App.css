@@ -1,0 +1,513 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.header-color{
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body {
+  padding-top: 0px;
+}
+header{
+  padding: 0 !important;
+}
+.content{
+  background-color: #f5f5f5;
+}
+.custom-navbar{
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 200;
+  /* background-color:red; */
+}
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display:inline-block;
+  float: none;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.logo-div{
+  width:100%; height:100%
+}
+.logo-img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.main-header {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+.slider-container{
+  top: -50px;
+  z-index: 100;
+}
+.menu-font{
+  color:#000
+}
+.list-div{
+  background-color: 	#f5f5f5;
+}
+.welcome-container {
+  text-align: center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.welcome-section {
+  padding: 70px 0;
+  background-color: #fff;
+}
+.intro-text {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro-text h1 {
+  line-height: 1.4;
+  font-size: 2.0rem;
+  margin-bottom: 0px;
+}
+.intro-text h2 {
+  line-height: 1.4;
+  font-size: 2.0rem;
+  margin-top: 0px;
+}
+.intro-text p {
+  font-size: 1.0rem;
+  line-height: 1.5;
+  margin-top: 30px;
+  color: #193148;
+}
+.list-container {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+
+}
+.list-heading {
+  position: relative;
+  margin-bottom: 45px;
+}
+.list-heading h3 {
+  padding: 0;
+  margin: 10px 0 0 0;
+  font-family: 'GraphikTH-Regular';
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #162e46;
+}
+.list-heading .action-button-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-search{
+  border-radius: 50px;
+    border-color: #162e46;
+    width: 222px;
+    border-width: revert;
+}
+.filter-container {
+  position: relative;
+  display: table;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.filter-block {
+  width: 20%;
+}
+.row-filter, .filter-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+.gridlist-display {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.gridlist-display .gridlist, .gridlist-display .gridview {
+  height: 45px;
+  width: 60px;
+  display: inline-block;
+  margin:auto;
+  border-radius: 30px;
+  border-color: black;
+  border-width: 1px;
+}
+.gridlist-display .gridlist {
+  margin-left: -4px;
+}
+.gridlist-display .gridview.current .icon, .gridlist-display .gridlist.current .icon, .gridlist-display .gridmap.current .icon {
+  color: #fff;
+  background-color: #162e46;
+}
+.btn-group {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 3px;
+}
+.view-btn-active{
+  background-color: #162e46;
+}
+.view-btn-inactive{
+  background-color:transparent;
+}
+.view-icon-active{
+  color:#fff
+}
+.view-icon-inactive{
+color:#000
+}
+.btn-map{
+  height: 45px;
+  width: 80px;
+border-radius: 30px;
+background-color: #fff;
+border-color: black;
+border-width: 1px;
+}
+.filter-filter{
+  position: relative;
+  display: table;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.map-icon-inactive{
+  color:#000
+}
+.row-filter {
+  width: 80%;
+  font-size: 0;
+  text-align: right;
+}
+.row-filter, .filter-block {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+}
+.col-filter.col-relative {
+  position: relative;
+}
+.col-filter {
+  width: 24%;
+  display: inline-block;
+  padding-left: 10px;
+  text-align: left;
+}
+.row-filter-btn{
+  font-size: 13px;
+  height: 45px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #fff;
+  border-width: 1px;
+  border-color: rgb(139, 139, 139);
+  color: #000;
+  
+}
+.filter-text{
+  margin-top: 5px;
+}
+.filter-number{
+  float: right;
+margin-right: 5px;
+}
+.filter-dropdown-icon-right-active{
+float: right;
+background-color: rgb(207, 204, 204);
+width: 50px;
+border-radius: 15px;
+}
+.filter-dropdown-icon-right{
+  float: right;
+  width: 50px;
+  border-radius: 15px;
+  }
+.card-deck{
+  margin-top:20px;
+  width: 80%;
+
+}
+.btn-top-right-1{
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  background-color: rgba(93, 131, 171,0.5);
+  width: 45px;
+  height: 45px;
+  
+}
+.btn-top-right-2{
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  background-color: rgba(93, 131, 171,0.5);
+  width: 45px;
+  height: 45px;
+}
+.card-title{
+  float: left;
+  margin: 0;
+  color: #162e46;
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+.c-startprice {
+  font-family: 'GraphikTH-SemiBold';
+  font-size: 1.6rem;
+}
+
+.c-facility ul li img.ico-svg-ne {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  display: inline-block;
+  filter: invert(13%) sepia(11%) saturate(5084%) hue-rotate(177deg) brightness(92%) contrast(89%);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-body{
+  text-align: left;
+}
+.icon-distance {
+  font-size: 25px;
+  float: left;
+  position: relative;
+}
+
+.content-distance {
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.btn-detail{
+  background-color: transparent;
+  color:black
+}
+
+.sansiri-text-banner{
+  width: 800px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+.ads-san .service-img {
+  background-size: cover;
+  background-position: center center;
+  height: 495px;
+  display: grid;
+}
+.ads-san .service-topic {
+  display: block;
+  width: 100%;
+  margin-top: -100px;
+  text-align: center;
+}
+.ads-san .service-topic h2 {
+  position: relative;
+  font-family: "GraphikTH-SemiBold";
+  font-size: 3.6rem;
+  background-color: #fff;
+  padding: 55px 60px 45px;
+  margin: 0;
+}
+.ads-san .service-topic h2 span {
+  font-family: "GraphikTH-Regular";
+  display: block;
+  font-size: 2.5rem;
+  margin-top: 12px;
+  color: #003168;
+}
+.ads-san-condo {
+  position: relative;
+  overflow: hidden;
+}
+.heading {
+  position: relative;
+  margin-bottom: 45px;
+}
+.heading h2 {
+  position: relative;
+  font-family: 'GraphikTH-SemiBold';
+  font-size: 3.4rem;
+  color: #000;
+}
+.ads-section {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+}
+.ads-container{
+  margin:0;
+}
+/* -------- */
+.ads-san-condo .item-service {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+.ads-san-condo .service-img {
+  position: relative;
+  height: 312px;
+  height: 280px;
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  display: grid;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.service-img-design {
+  background-position: center center;
+  background-size: cover;
+}
+.ads-san-condo .item-service .service-description {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+.ads-san-condo .item-service .service-description {
+  margin-top: 30px;
+  font-size: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+.ads-san-condo .item-service h3 {
+  position: absolute;
+  display: inline-block;
+  font-family: 'GraphikTH-SemiBold';
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 100%;
+  left: 50%;
+  top: 45%;
+  margin: 0;
+  -webkit-transform: translate(-50%, 11%);
+  -ms-transform: translate(-50%, 11%);
+  transform: translate(-50%, 11%);
+}
+.ads-san-condo .item-service h3:after {
+  content: '';
+  display: block;
+  width: 110px;
+  height: 2px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+.san-footer .san-footer-link {
+  background-color: #000;
+  color: #fff;
+  padding: 3.8em 0 6.3em;
+  padding: 5em 0 9em;
+  padding: 5em 0 7em;
+}
+.san-footer .san-footer-link .san-inner-footer {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #333;
+}
+.san-footer .san-footer-link .san-inner-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.san-footer .san-footer-link .san-inner-footer h4 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.san-footer .san-footer-link .san-inner-footer ul li>a {
+  display: inline-block;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.san-footer .san-footer-link .san-inner-footer a {
+  font-size: 1.3rem;
+}
+.san-footer .san-footer-link a {
+  color: #fff;
+  font-weight: 400;
+  line-height: 1;
+}
+.section-condo-list .item-condo .c-color {
+  border: solid 1px #efefef;
+  display: block;
+}
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+.ads-san {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.promotion-btn{
+  background-color: black;
+  border-color: white;
+}
+
+.san-footer .san-footer-link .san-inner-footer2 ul.sansiri-social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.san-footer .san-footer-link .san-inner-footer2 ul.sansiri-social li {
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: top;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
